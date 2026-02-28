@@ -1,0 +1,12 @@
+spring:
+  mongodb:
+    uri: mongodb://localhost:27017/ecommerce
+  data:
+    mongodb:
+      auto-index-creation: true
+  application:
+    name: mongodbDemo
+logging:
+  level:
+    org.springframework.data.mongodb:
+      core.MongoTemplate: DEBUG
