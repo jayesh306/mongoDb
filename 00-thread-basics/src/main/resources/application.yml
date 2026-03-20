@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: thread-basics
+  profiles:
+    active: fork-join-runner
